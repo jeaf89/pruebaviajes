@@ -67,3 +67,7 @@ p{
 .bg1{
     background: #fff;
 }
+.letra-chica{
+    font-size: smaller;
+    vertical-align: middle;
+}
