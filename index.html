@@ -157,12 +157,20 @@
                 <!-- Card 1 -->
                 <div class="col-12 col-lg-3 my-4">
 
-                    <div class="card color-card">
+                    <div id="containerbtn" class="card color-card">
                         <img src="./assets/img/card1.jpg" class="card-img-top" alt="Lagos de Chile">
                         <div class="card-body">
                             <p class="titulo-card">Lagos Chilenos</p>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
                                 of the card's content.</p>
+
+                            <!-- boton card -->
+                            <div  class="changeBG">
+                                <button type="button" class="btn btn-outline-info bg1" onclick="btnChanger()">Cambia el color al
+                                    Fondo de esta oferta</button>
+
+                            </div>
+
                         </div>
                     </div>
 
@@ -171,12 +179,18 @@
                 <!-- Card 2 -->
                 <div class="col-12 col-lg-3 my-4">
 
-                    <div class="card color-card">
+                    <div id="containerbtn2" class="card color-card">
                         <img src="./assets/img/card2.jpg" class="card-img-top" alt="Altiplano Chileno">
                         <div class="card-body">
                             <p class="titulo-card">Altiplano y Titi Caca</p>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
                                 of the card's content.</p>
+                                <!-- boton card -->
+                            <div  class="changeBG">
+                                <button type="button" class="btn btn-outline-info bg1" onclick="btnChanger2()">Cambia el color al
+                                    Fondo de esta oferta</button>
+
+                            </div>
                         </div>
                     </div>
 
@@ -185,26 +199,38 @@
                 <!-- Card 3 -->
                 <div class="col-12 col-lg-3 my-4">
 
-                    <div class="card color-card">
+                    <div id="containerbtn3" class="card color-card">
                         <img src="./assets/img/card3.jpg" class="card-img-top" alt="Salar de Atacama">
                         <div class="card-body">
                             <p class="titulo-card">Salar de Atacama</p>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
                                 of the card's content.</p>
+                                <!-- boton card -->
+                            <div  id="containerbtn3" class="changeBG">
+                                <button type="button" class="btn btn-outline-info bg1" onclick="btnChanger3()">Cambia el color al
+                                    Fondo de esta oferta</button>
+
+                            </div>
                         </div>
                     </div>
 
                 </div>
 
                 <!-- Card 4 -->
-                <div class="col-12 col-lg-3 my-4">
+                <div  id="containerbtn" class="col-12 col-lg-3 my-4">
 
-                    <div class="card color-card">
+                    <div id="containerbtn4" class="card color-card">
                         <img src="./assets/img/card4.jpg" class="card-img-top" alt="Selva Araucana">
                         <div class="card-body">
                             <p class="titulo-card">Selva Araucana</p>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
                                 of the card's content.</p>
+                                <!-- boton card -->
+                            <div  id="containerbtn4" class="changeBG">
+                                <button type="button" class="btn btn-outline-info bg1" onclick="btnChanger4()">Cambia el color al
+                                    Fondo de esta oferta</button>
+
+                            </div>
                         </div>
                     </div>
 
@@ -236,14 +262,15 @@
 
                 <div class="mb-3">
                     <label for="exampleInputEmail1" class="form-label">Correo Electrónico</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Ingrese un correo electrónico válido" aria-describedby="emailHelp">
+                    <input type="email" class="form-control" id="exampleInputEmail1"
+                        placeholder="Ingrese un correo electrónico válido" aria-describedby="emailHelp">
                     <div id="emailHelp" class="form-text">Nunca compartiremos su correo electrónico con nadie más.</div>
-                  </div>
+                </div>
                 <div class="mb-3">
                     <label for="validationTextarea" class="form-label">Mensaje</label>
                     <textarea class="form-control" id="validationTextarea"
                         placeholder="El mensaje es importante para nosotros" required></textarea>
-                  
+
                 </div>
 
                 <button type="submit" class="btn btn-primary color-card">Enviar</button>
@@ -253,24 +280,33 @@
     <footer class="navbar navbar-expand-lg navbar-dark fondo-footer">
         <div class="container">
             <p class="pt-3">VIAJES CHILE</p>
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#"><i class="fa-brands fa-github-square"></i></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#"><i class="fa-brands fa-facebook-square"></i></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#"><i class="fa-brands fa-instagram-square"></i>
-                        </a>
-                    </li>
-                    <li class="nav-item ">
-                        <a class="nav-link active" href="#"><i class="fa-brands fa-linkedin"></i>
-                        </a>
-                    </li>
-                </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"><i
+                            class="fa-brands fa-github-square"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#"><i class="fa-brands fa-facebook-square"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#"><i class="fa-brands fa-instagram-square"></i>
+                    </a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link active" href="#"><i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </li>
+            </ul>
         </div>
     </footer>
+
+
+    <!-- jquery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- mi script -->
+    <script src="./assets/js/script.js"></script>
 
     <!-- Separate BOOTSTRAP -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
@@ -280,12 +316,6 @@
         integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
         crossorigin="anonymous"></script>
 
-    <!-- jquery CDN -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-
-    <!-- mi script -->
-    <script src="./assets/js/script.js"></script>
 </body>
 
 </html>
