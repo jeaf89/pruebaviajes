@@ -1,0 +1,66 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.carousel-item{
+    height: auto;
+} 
+.quienes{
+    text-align: center;
+    padding: 2%;
+}
+
+.iconos{
+    
+    text-align: center;
+    vertical-align: middle;
+    background-color: #54c0ea;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+}
+
+p{
+    font-weight: 300;
+}
+
+.destacados{
+    background-color: rgb(24, 24, 24);
+    text-align: center;
+}
+.card-text{
+    color: #fff;
+    text-align: left;
+    font-size: 1rem;
+    font-weight: 400;
+   
+}
+.titulo-card{
+    color: #fff;
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.color-card{
+    background-color: #54c0ea;
+
+}
+.card-img-top{
+    height: 15rem;
+}
+.contacto{
+    text-align: center;
+}
+.fondo-footer{
+    background-color: #54c0ea;
+    color: #fff;
+    font-weight: 500;
+
+}
